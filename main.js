@@ -9,6 +9,7 @@ let xPosition = 0;
 function drawFrame(timestamp) {
   ctx.clearRect(0, 0, WIDTH, HEIGHT);
 
+  ctx.beginPath();
   ctx.moveTo(225, 300);
   ctx.lineTo(325, 450);
   ctx.lineTo(625,  50);
